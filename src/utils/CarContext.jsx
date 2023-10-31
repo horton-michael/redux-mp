@@ -29,7 +29,6 @@ export default function CarProvider(props) {
 
   return (
     <Provider store={store}>
-      {" "}
       <CarContext.Provider value={{ cars }} {...props} />
     </Provider>
   );
